@@ -66,6 +66,7 @@ flutter:
   assets:
     - Images/triangle.png
     - Models/Chicken_01/
+    - Models/Sphere/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

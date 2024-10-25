@@ -124,10 +124,11 @@ class _ObjectsOnPlanesWidgetState extends State<ObjectsOnPlanesWidget> {
       // Add note to anchor
       var newNode = ARNode(
           type: NodeType.localGLTF2,
-          uri: "Models/Chicken_01/Chicken_01.gltf",
+          uri: "Models/Sphere/sphere.gltf",
           scale: Vector3(0.05, 0.05, 0.05),
           position: Vector3(0.0, 0.0, 0.0),
           rotation: Vector4(1.0, 0.0, 0.0, 0.0));
+
       bool? didAddNodeToAnchor =
           await arObjectManager!.addNode(newNode, planeAnchor: newAnchor);
       if (didAddNodeToAnchor!) {
